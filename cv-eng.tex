@@ -1,0 +1,125 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                        % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Adalberto}{Kutuxidis}
+\title{Software Engineer}                         % optional, remove / comment the line if not wanted
+\address{Manaus, AM - Brazil}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+55~(92)~99215~1419}                % optional, remove / comment the line if not wanted
+\email{adalberto.kutuxidis@gmail.com}              % optional, remove / comment the line if not wanted
+\homepage{linkedin.com/in/adalbertokutuxidis}      % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Summary}
+
+I'm a Full Stack Developer with 10 years’ experience. High skilled in HTML5, CSS3 and Javascript. Strong knowledge in web standards, responsive layout and modern frameworks. Worked most of the time in front end development creating websites, blogs and web applications, but also had a strong knowledge of back end programming languages and databases. Also, experienced with agile methods and a full life cycle of complex applications.
+
+\section{Education}
+\cventry{2004 -- 2010}{Bachelor of System Analysis}{Fucapi}{Manaus}{\textit{Brazil}}{}  % arguments 3 to 6 can be left empty
+
+\section{Expertise}
+\cvlistitem{Skilled with HTML5, CSS3 and Javascript;}
+\cvlistitem{Huge Experience in Web / Front End Development;}
+\cvlistitem{Experienced in Developing Apps, Games and Websites for Mobile;}
+\cvlistitem{Strong Knowledge of PC Hardware;}
+
+\section{Dev. Skills}
+\cvitem{Front End}{HTML5, CSS3, SASS, LESS, Javascript, JQuery, AngularJS, Bootstrap, Angular Material.}
+\cvitem{Back End}{PHP, Java, C++, C\#, GML.}
+\cvitem{Mobile}{Android, Cordova, Phonegap, Ionic}
+\cvitem{Game Eng.}{Unity3D, Unreal Engine 4, GameMaker.}
+\cvitem{Databases}{MySQL.}
+\cvitem{Vers. Control}{GIT, SVN, Perforce.}
+\cvitem{Process}{SCRUM.}
+
+\section{Languages}
+\cvitem{Portuguese}{Native.}
+\cvitem{English}{Advanced.}
+
+\section{Experience}
+\cventry{2013 -- (Present)}{Software Engineer}{Samsung Electronics}{Manaus}{}{Implement mobile and web solutions for global scale projects.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Ported a Android App to Tizen;
+\item Developed a Android Mobile/Web School App:
+  \begin{itemize}%
+    \item Teamwork with teams from India and South Korea;
+    \item Spent 1 month working at Samsung's HQ in South Korea;
+    \item Spent 1 month leading the team in Brazil;
+  \end{itemize}
+\item Developed a Android Viewer App for a special type of file made by Samsung:
+  \begin{itemize}%
+    \item Teamwork with a team from South Korea;
+    \item Spent 2 weeks working at Samsung's HQ in South Korea;
+    \item Became leader in the final half of the project;
+  \end{itemize}
+\item Developed GearVR prototypes with Unity3D;
+\end{itemize}}
+\cventry{2011 -- 2013}{Owner/Software Engineer}{ZoomOut Soluções Digitais}{Manaus}{}{Implement and give maintenance in websites and web administrative systems.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Got a lot of experience developing responsive one-page websites;
+\end{itemize}}
+\cventry{2010 -- 2011}{Software Engineer}{Vekttor}{Manaus}{}{Implement and give maintenance in websites and web administrative systems.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item Got a lot of experience developing web applications;
+\end{itemize}}
+\cventry{2009 -- 2010}{Software Engineer}{Hexagono STI}{Manaus}{}{Front End Development for mobile and web applications.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item First time working in a huge project with a team;
+\end{itemize}}
+\cventry{2006 -- 2008}{Owner/Software Engineer}{AKBS}{Manaus}{}{Implement and give maintenance in websites and web administrative systems.\newline{}%
+Achievements:%
+\begin{itemize}%
+\item First steps in Front-End Development;
+\item Developed a local famous website called: esfomeados.com;
+\end{itemize}}
+\cventry{2005 -- 2006}{IT(internship)}{Correios e Telegrafos}{Manaus}{}{Responsible for the technical support for all agencies in the north of Brazil.}
+
+\section{Miscellaneous}
+\cvlistitem{Implemented alone a game with Unity3D, and publish it at Play Store. The name of the game: Laser Rage;}
+\cvlistitem{Gave a lecture in CDL Jovem Manaus (2012), about the service provided by the website: afgames.com;}
+\end{document}
+
+
+%% end of file `template.tex'.
